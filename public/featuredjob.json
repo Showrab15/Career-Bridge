@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "company_name": "Google LLC",
+        "job_title": "Technical Database Engineer ",
+        "company_logo": "https://i.ibb.co/vv0ywQt/google-1-1-1.png",
+        "salary": "50K-80K",
+        "location": " Dhaka, Bangladesh",
+        "job_detail": "Technical Database Engineers at Google are responsible for designing, developing, and maintaining databases that are reliable, efficient, and scalable. They should have a strong background in database design principles, performance optimization, and database administration. Additionally, they should have experience in automation and scripting and be able to work collaboratively in a team environment.",
+        "job_responsibility": "Database Engineers administer, test, and implement computer databases, applying knowledge of database management systems. Coordinate changes to computer databases. Identify, investigate, and resolve database performance issues, database capacity, and database scalability.",
+        "educational_requirements": "Bachelor's degree in information systems, information technology, computer science, or similar.",
+        "experience": "2-3 years in the field",
+        "phone" : "01043251521",
+        "email" : "john@gmail.com",
+        "remoteOrOnSite": "Remote",
+        "fulltimeOrPartTime": "Full-Time"
+
+    },
+    {
+        "id": 2,
+        "company_name": "NetFlix",
+        "job_title": "Senior Product Designer",
+        "company_logo": "https://i.ibb.co/PzbHtB1/netflix-4-1.png",
+        "salary": "100K-130K",
+        "location": " Mumbai, india",
+        "job_detail": " Senior Product Designers at Netflix are responsible for designing and developing user interfaces and experiences that are visually appealing and user-friendly. They should have experience in conducting user research and analyzing data to inform design decisions and be able to work collaboratively with cross-functional teams. They should also have experience in creating prototypes and conducting usability testing and be able to develop design strategies that support business goals and user needs.",
+        "job_responsibility": "you will be responsible for designing and delivering high-quality user experiences that meet the needs of Netflix's customers and align with the company's business objectives.",
+        "educational_requirements": "Bachelor's degree or higher in design-related fields, such as Graphic Design, Product Design, Interaction Design, or Human-Computer Interaction.",
+        "experience": "2 years in the field",
+        "phone" : "01050-00 00 00",
+        "email" : "mumbai@gmail.com",
+        "remoteOrOnSite": "Onsite",
+        "fulltimeOrPartTime": "Full-Time"
+
+
+
+
+    },
+    {
+        "id": 3,
+        "company_name": "Tesla",
+        "job_title": "Software Engineer",
+        "company_logo": "https://i.ibb.co/JthqSJZ/tesla-9-1.png",
+        "salary": "60K-100K",
+        "location": " Dhaka, Bangladesh",
+        "job_detail": "Software Engineers at Tesla are responsible for developing software systems that are used to control various aspects of Tesla's products. They should have experience in software development, system architecture, collaboration, testing and validation, and innovation. They should also be committed to developing cutting-edge technology and be able to identify opportunities to improve Tesla's products through software innovation.",
+        "job_responsibility": "you will be responsible for developing high-quality software solutions that support Tesla's mission to accelerate the world's transition to sustainable energy. You will work on cutting-edge technologies and collaborate with a team of highly skilled professionals to deliver software products that meet the needs of Tesla's customers and advance the company's vision.",
+        "educational_requirements": "Bachelor's Degree in Computer Science, Software Engineering, or similar areas of study. ",
+        "experience": "Minimum 2 years' experience in Mobile (iOS/Android) development. Familiar with JavaScript/TypeScript.",
+        "phone" :"01040-00 00 00",
+        "email" : "hero@gmail.com",
+        "remoteOrOnSite": "Remote",
+        "fulltimeOrPartTime": "Full-Time"
+
+
+    },
+    {
+        "id": 4,
+        "company_name": "Google LLC",
+        "job_title": "Technical Database Engineer ",
+        "company_logo": "https://i.ibb.co/vv0ywQt/google-1-1-1.png",
+        "salary": "100K-150K",
+        "job_detail": "Technical Database Engineers at Google are responsible for designing, developing, and maintaining databases that are reliable, efficient, and scalable. They should have a strong background in database design principles, performance optimization, and database administration. Additionally, they should have experience in automation and scripting and be able to work collaboratively in a team environment.",
+        "job_responsibility": "Database Engineers administer, test, and implement computer databases, applying knowledge of database management systems. Coordinate changes to computer databases. Identify, investigate, and resolve database performance issues, database capacity, and database scalability.",
+        "educational_requirements": "Bachelor's degree in information systems, information technology, computer science, or similar.",
+        "experience": "2-3 years in the field",
+        "phone" : " 01150-00 00 30",
+        "email" : "level@gmail.com",
+        "location": " Paris, France",
+        "remoteOrOnSite": "Onsite",
+        "fulltimeOrPartTime": "Part-time"
+
+
+    },
+    {
+        "id": 5,
+        "company_logo": "https://i.ibb.co/Rc2ckgs/Amazon-Logo.png",
+        "job_title": "Customer Service Representative",
+        "company_name": "Amazon",
+        "job_detail": "Customer Service Representative at Amazon, your main responsibility is to provide excellent customer service and ensure that customers have a positive experience when interacting with Amazon. You'll need to have strong communication and problem-solving skills, as well as the ability to work in a fast-paced and dynamic environment.",
+        "salary": "30k-180k",
+        "job_responsibility": "Customer Service Representative at Amazon, your main responsibility is to ensure that customers are satisfied with their experience and receive the support they need to resolve any issues they may have.",
+        "educational_requirements": "Bachelor degree to complete any reputational  university.",
+        "experience":"2-3 Years in this field.",
+        "remoteOrOnSite": "Remote",
+        "fulltimeOrPartTime": "Full-Time",
+        "phone":"01050562589",
+        "location": "Badda,Dhaka,Bangladesh",
+        "email": "showrab@gmail.com"
+
+    },
+    {
+        "id": 6,
+        "company_logo": "https://i.ibb.co/hfshpmb/Group-10021.png",
+        "job_title": "Motion Graphic Designer",
+        "company_name": "AirBnb",
+        "job_detail": "As a motion graphic designer, your job is to create visually appealing and engaging motion graphics that effectively communicate a message or tell a story. You will work with a team of other creatives, use software tools to design and animate graphics, and manage projects to ensure that work is completed on time and meets quality standards.",
+        "salary": "70k-80k",
+        "job_responsibility": "Motion graphic designer, your job is to create visually appealing and engaging motion graphics that effectively communicate a message or tell a story. You'll need to be creative, collaborative, and able to manage multiple projects simultaneously.",
+        "educational_requirements": "Bachelor degree to complete any reputational university.",
+        "remoteOrOnSite": "Onsite",
+        "fulltimeOrPartTime": "Full-Time",
+        "experience":"2-3 Years in this field.",
+        "phone":"01850562589",
+        "location": "EPZ,Dhaka,Bangladesh",
+        "email": "sakib2@gmail.com"
+
+    }
+]

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container{
+    @apply px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10
+  }
+
+
+  
+  .btn-outlined{
+    @apply  font-medium  rounded-lg transition duration-200  shadow-md  md:mb-0  px-2 py-2 md:px-8 md:py-3 m-2 text-lg text-sky-500  hover:border-transparent border-2 border-cyan-200
+  }
+  
+  
