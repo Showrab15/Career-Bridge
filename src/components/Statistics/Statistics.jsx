@@ -3,13 +3,13 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
 
 const Statistics = () => {
     const data02 = [
-        { Assignment: '1', value: 60 },
-        { Assignment: '2', value: 60 },
+        { Assignment: '1', value: 57 },
+        { Assignment: '2', value: 58 },
         { Assignment: '3', value: 60 },
-        { Assignment: '4', value: 55 },
+        { Assignment: '4', value: 60 },
         { Assignment: '5', value: 60 },
-        { Assignment: '6', value: 59 },
-        { Assignment: '7', value: 60 },
+        { Assignment: '6', value: 60 },
+        { Assignment: '7', value: 59 },
         { Assignment: '8', value: 60 },
     ]
 
