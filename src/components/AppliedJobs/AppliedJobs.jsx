@@ -39,13 +39,13 @@ const filterData =(type)=>{
 console.log(appliedJobs);
 
     return (
-        <div className="my-container">
+        <div className="my-container ">
  <div className="justify-center flex">
-<button onClick={()=>filterData('Remote')} className="btn mr-4">Remote</button>
-<button onClick={()=> filterData('Onsite')} className="btn ">OnSite</button>
+<button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}}  onClick={()=>filterData('Remote')} className="btn border-none mr-4">Remote</button>
+<button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} onClick={()=> filterData('Onsite')} className="btn border-none">OnSite</button>
         </div>
 
-<div className="">
+<div className="mt-8">
     {
         dataType.map(appliedJobDetails => <AppliedJobDetails
             appliedJobDetails={appliedJobDetails}

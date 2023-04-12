@@ -11,7 +11,7 @@ const AppliedJobDetails = ({ appliedJobDetails }) => {
         <div>
        
         <div style={{ border: ' 1px solid #E8E8E8' }} className="flex flex-col md:flex-row p-8 items-center md:justify-between justify-center gap-10 mb-4 ">
-            <div className="flex flex-col md:flex-row gap-10">
+            <div className="flex flex-col md:flex-row  gap-10">
                 <div className='flex  items-center justify-center rounded-lg w-[200px] h-[200px]' style={{ backgroundColor: '#F4F4F4' }}>
                     <img src={company_logo} alt="" />
 
