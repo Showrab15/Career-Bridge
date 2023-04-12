@@ -16,7 +16,7 @@ const Statistics = () => {
   return (
     <div>
       <h1 className="text-center font-bold text-4xl">Assignment Marks Shows ByRecharts</h1>
-      <div className="flex md:justify-center mx-auto md:overflow-x-hidden overflow-x-scroll">
+      <div className="flex mt-4 mb-4 md:justify-center mx-auto md:overflow-x-hidden overflow-x-scroll">
         <AreaChart
           width={450}
           height={400}

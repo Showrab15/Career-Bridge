@@ -62,7 +62,7 @@ const Navbar = () => {
                     <li>
                     </li>
                 </ul>
-                <div>                   <button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} className=' hidden border-none btn lg:block  text-white text-base bg-sky-500 rounded-lg'>Start Applying</button>
+                <div>                   <button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} className=' hidden border-none btn lg:block  text-white text-base'>Start Applying</button>
                 </div>
                 <div className='lg:hidden'>
                     <button
