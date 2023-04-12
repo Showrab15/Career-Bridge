@@ -3,7 +3,11 @@ import { useLoaderData } from 'react-router-dom';
 import SingleJobListCategory from '../SingleJobListCategory/SingleJobListCategory';
 
 const JobCategory = () => {
-    const [jobCategoryList,setJobCategoryList ]= useState([])
+
+
+    const [jobCategoryList,setJobCategoryList ]= useState([]);
+
+    // useEffect for fetch job Cateogry list data
     useEffect(()=>{
         fetch('joblist.json')
         .then(res => res.json())
