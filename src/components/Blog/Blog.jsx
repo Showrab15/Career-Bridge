@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
   return (
     <div>
-      <section class="mt-8 w-[50%] mx-auto">
+      <section class="mt-8 mb-8 w-[50%] mx-auto">
         <h1 class="text-3xl font-bold text-center mb-8 underline">Few Question Answer</h1>
         <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-orange-400 rounded-box ">
           <div class="collapse-title text-xl font-medium">When Should you use context API</div>

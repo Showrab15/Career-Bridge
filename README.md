@@ -1,6 +1,6 @@
 ###  assignment project link
 
-netlify live link :https://adorable-tapioca-a747ba.netlify.app/
+netlify live link : https://adorable-tapioca-a747ba.netlify.app/
 
 # Project Name
 Job Searching 
