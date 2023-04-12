@@ -4,30 +4,31 @@ import SingleJobListCategory from '../SingleJobListCategory/SingleJobListCategor
 
 const JobCategory = () => {
 
+    // useState for job lis category data
+    const [jobCategoryList, setJobCategoryList] = useState([]);
 
-    const [jobCategoryList,setJobCategoryList ]= useState([]);
-
-    // useEffect for fetch job Cateogry list data
-    useEffect(()=>{
+    // useEffect for fetch job category list data
+    useEffect(() => {
         fetch('joblist.json')
-        .then(res => res.json())
-        .then(data =>setJobCategoryList(data))
-    },[])   
+            .then(res => res.json())
+            .then(data => setJobCategoryList(data))
+    }, [])
+
     return (
         <div>
-        <div className="mt-4 text-center  ">
-          <h1 className="font-bold   text-4xl">Job Category List</h1>
-          <p className="text-gray-400 font-normal text-base mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
-</div>
-          <div className="grid  md:grid-cols-4 lg:grid-cols-4 justify-center  my-container gap-20 ">
-          {
-jobCategoryList.map( singleJobCategoryList => <SingleJobListCategory
-key ={singleJobCategoryList.id}
-    singleJobCategoryList={singleJobCategoryList}
+            <div className="mt-4 text-center  ">
+                <h1 className="font-bold  text-4xl">Job Category List</h1>
+                <p className="text-gray-400 font-normal text-base mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+            <div className="grid  md:grid-cols-4 lg:grid-cols-4 justify-center  my-container gap-20 ">
+                {
+                    jobCategoryList.map(singleJobCategoryList => <SingleJobListCategory
+                        key={singleJobCategoryList.id}
+                        singleJobCategoryList={singleJobCategoryList}
 
-></SingleJobListCategory>)
-          }
-          </div>
+                    ></SingleJobListCategory>)
+                }
+            </div>
         </div>
     );
 };

@@ -4,9 +4,14 @@ import { getShoppingCart } from '../../utilities/fakedb';
 import AppliedJobDetails from '../AppliedJobDetails/AppliedJobDetails'
 const AppliedJobs = () => {
 
-    const jobs = useLoaderData()
+    // useLoader for jobs
+    const jobs = useLoaderData();
+
+    // useState for find the applied jobs data
     const [appliedJobs, setAppliedJobs] = useState([])
-    const [dataType, setDataType] = useState([])
+
+    // useState for filter data
+    const [dataType, setDataType] = useState([]);
 
     useEffect(() => {
         const storedCart = getShoppingCart()
@@ -24,6 +29,7 @@ const AppliedJobs = () => {
     }, [jobs])
 
 
+    // event handler for filter data by remote and onsite
 
     const filterData = (type) => {
         if (type == 'Remote') {
@@ -37,7 +43,6 @@ const AppliedJobs = () => {
     }
 
 
-    console.log(appliedJobs);
 
     return (
         <div className="my-container ">
