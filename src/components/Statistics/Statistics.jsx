@@ -1,5 +1,5 @@
 import React from 'react';
-import { PieChart, Pie,Tooltip  } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const Statistics = () => {
     const data02 = [
@@ -14,14 +14,26 @@ const Statistics = () => {
     ]
 
     return (
-        <div className='text-center my-container'>
-            <h1 className='font-bold text-3xl'>This is my Assignment marks chart!!!!</h1>
-            <PieChart className='md:mx-auto text-center border border-violet-500 shadow-2xl mt-12' width={400} height={400}>
-          <Pie isAnimationActive={false} data={data02} dataKey="value" cx={200}cy={200} outerRadius={80} fill="#8884d8"label/>
-          <Tooltip></Tooltip>
-          
-        </PieChart>
-        </div>
+      <div className="flex md:justify-center mx-auto md:overflow-x-hidden overflow-x-scroll">
+          <AreaChart
+          width={450}
+          height={400}
+          data={data02}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="Assignment" />
+          <YAxis dataKey="value"/>
+          <Tooltip />
+          <Area type="monotone" dataKey="Assignment" stackId="1" stroke="#8884d8" fill="#8884d8" />
+          <Area type="monotone" dataKey="value" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+        </AreaChart>
+      </div>
     );
 };
 
