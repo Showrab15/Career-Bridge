@@ -9,12 +9,12 @@ const Navbar = () => {
             <div className='relative flex items-center justify-between'>
                 <Link
                     to='/'
-                    aria-label='HeroDam'
-                    title='HeroDam'
+                    aria-label='HeroHub'
+                    title='HeroHub'
                     className='inline-flex items-center'
                 >
                     <div className='flex items-center justify-center '>
-                        <h1 className="text-2xl font-bold">logo</h1>
+                        <h1 className="text-2xl font-bold">HeroHub</h1>
                     </div>
 
                 </Link>
@@ -88,12 +88,12 @@ const Navbar = () => {
                             <div className='p-5 bg-white border rounded shadow-sm'>
                                 <div className='flex items-center justify-between mb-4'>
 
-                                <h1 className="text-2xl font-bold">logo</h1>
+                                <h1 className="text-2xl font-bold">HeroHub</h1>
                                                                     <div>
                                         <Link
                                             to='/'
-                                            aria-label='HeroDam'
-                                            title='HeroDam'
+                                            aria-label='HeroHub'
+                                            title='HeroHub'
                                             className='inline-flex items-center'
                                         >
                                             <div className='flex items-center justify-center '>
