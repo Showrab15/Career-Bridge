@@ -167,7 +167,7 @@ const Navbar = () => {
 
                                     </ul>
                                     <div>
-                                        <button className='px-4 py-4  text-white text-base bg-sky-500 rounded-lg'>Star Applying</button>
+                                        <button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} className='  text-white text-base btn'>Start Applying</button>
                                     </div>
                                 </nav>
                             </div>
