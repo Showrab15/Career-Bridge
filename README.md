@@ -3,18 +3,24 @@
 netlify live link : https://adorable-tapioca-a747ba.netlify.app/
 
 # Project Name
-Job Searching 
+Hero Hub 
 ## Description
-this is job hub projects.when you need job then applied here 
+this is job hub projects.when you need job then applied here . we will try to best jobs of the present time. we hope that it's will help you.
 
 ## Features
 - Feature 1: A navbar and header
-- Feature 2: Job list
-- Feature 3: Job feature and applied 
+- Feature 2: Job Category list
+- Feature 3: Job features 
+- Feature 4: Job Details
+- Feature 5 : Applied Jobs
 
 ## Installation
 
-1. Install dependencies: npm install
+1. DaisyUi
+2. Tailwind css
+3. React fontawesome icon
+4. React router
+5. Vite + react
 
 ## Usage
 - Step 1:Javascript

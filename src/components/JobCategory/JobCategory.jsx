@@ -16,7 +16,7 @@ const JobCategory = () => {
 
     return (
         <div>
-            <div className="mt-4 text-center  ">
+            <div className="mt-8 text-center  ">
                 <h1 className="font-bold  text-4xl">Job Category List</h1>
                 <p className="text-gray-400 font-normal text-base mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>

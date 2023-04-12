@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+    
+    // useState menuBar
+
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
@@ -167,7 +170,7 @@ const Navbar = () => {
 
                                     </ul>
                                     <div>
-                                        <button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} className='  text-white text-base btn'>Start Applying</button>
+                                        <button style={{background: 'linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)'}} className='  text-white border-none text-base btn'>Start Applying</button>
                                     </div>
                                 </nav>
                             </div>
