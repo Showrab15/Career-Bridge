@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addToDb } from '../../utilities/fakedb';
-import { faLocationDot, faEnvelope, faDollar, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faEnvelope, faDollar, faPhone , faBriefcase} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const JobDetails = () => {
@@ -70,7 +70,7 @@ const JobDetails = () => {
                         <hr />
                         <div className="mt-8 mb-8 text-base ">
                             <p><span className="font-semibold "> <FontAwesomeIcon style={{ color: 'rgba(126, 144, 254, 1)' }} icon={faDollar} />  Salary : </span>  <span style={{ color: '#757575' }}>{salary}</span> </p>
-                            <p className='mt-4'><span className="font-semibold  ">Job Title</span> : <span style={{ color: '#757575' }}> {job_title}</span> </p>
+                            <p className='mt-4'><span className="font-semibold  "><FontAwesomeIcon style={{ color: 'rgba(126, 144, 254, 1)' }} icon={faBriefcase} /> Job Title</span> : <span style={{ color: '#757575' }}> {job_title}</span> </p>
                         </div>
                         <h1 className="font-bold text-base mb-4">Contact Information</h1>
                         <div>
